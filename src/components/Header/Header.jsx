@@ -15,6 +15,7 @@ import Fading from "../Fading/Fading"
 
 import MenuMedia from "../MenuMedia/MenuMedia";
 
+import Search from "../Search/Search";
 
 const Header = () => {
     
@@ -30,14 +31,8 @@ const Header = () => {
                 <h1 className={css.logo_txt1}>News</h1>         
             </div>
             <Fading isActive = {isActive} setIsActive =  {setIsActive}/>
-            <SideBar isActive = { isActive } setIsActive = { setIsActive } />               
-            <div className={css.search_div}>
-                <div className={css.search_div__search}>
-                    <CiSearch  className={css.search__img}/>
-                    <input type="search" placeholder="Search" className={css.search}/>
-                </div>
-                <input type="submit" value="Search" className={css.button_search}/>
-            </div>  
+            <SideBar isActive = { isActive } setIsActive = { setIsActive } />  
+            <Search />             
         </div>
         </header>
     )

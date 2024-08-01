@@ -10,6 +10,7 @@ import {
 import App from "./App"
 import About from "./page/About";
 import Home from "./page/Home";
+import ShowItem from "./page/ShowItem";
 
 const router = createBrowserRouter([
   {
@@ -19,11 +20,14 @@ const router = createBrowserRouter([
         {
             path: '/',
             Component: Home
-        }
-        ,
+        },
         {
             path: "about",
             Component: About
+        },
+        {
+          path: "showitem/:id",
+          Component: ShowItem
         }
     ]
   },

@@ -8,7 +8,7 @@ const Card = ({data}) => {
             <div className={css.new_txt}>
                 <h5 className={css.new__title}>{data.title}</h5>
                 <h6 className={css.new__body}>{data.body}</h6>
-                <p className={css.new__more}><MyLink name = {"Read more"} link = {"#!"} style = {css.new__link}/></p>
+                <p className={css.new__more}><MyLink name = {"Read more"} link = {`showItem/${data.id}`} style = {css.new__link}/></p>
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
+import { MdDescription } from "react-icons/md"
 import Card from "../components/Card/Card"
 
-const Data = [
+export const Data = [
     {   
         id: 1,
         img: "https://estaticos.elperiodico.com/resources/jpg/7/7/1469702567477.jpg",
@@ -13,6 +14,7 @@ const Data = [
         img: "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_662104d99aebf023f3ac978f_6621059eb98f5221fb3a4b38/scale_1200",
         title: "Title2",
         body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex modi nostrum fugiat, ullam ea sapiente voluptatibus atque quo quia ipsa?",
+        description: "lkhhjgjhffhg"
     },
 
     {   
